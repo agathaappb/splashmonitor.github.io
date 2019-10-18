@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/CSS" href="bootstrap/theme.css">
+
+    <title>Teste!</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-dark bg-dark style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">
+  <img src=logo/logo2.png class="rounded-circle" width="100" height="100"> Área de Monitoramento - Splash Monitor
+</a>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="https://agathaappb.github.io/splashmonitor.github.io/">Home</a>
+    </li>
+  </ul>
+</nav>
+<div class="container theme-showcase" role="main">
+  <div class="jumbotron">
+    <h1>Teste de monitoramento Splash Monitor!</h1>
+    <p>Esta é apenas uma página de testes, realização de conexão com o módulo de monitoramento e exibição dos valores medidos.</p>
+    <p>Nesta etapa os objetivos são conexão entre servidores web (servidor GitHub) e o servidor local (server Node MCU). Não estamos focados em estética, páginas de login e entre outras coisas.</p>
+  </div>
+  <div class="page-header">
+    <h1>Medições:</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th width="400">Ph</th>
+          </tr>
+        </thead>
+        <tbody>
+          <iframe width="400" height="35" frameborder=”0″ scrolling=”no” src="http://192.168.0.112"></iframe>
+        </tbody>
+      </table>
+    </div>
+  </div> <!-- /container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script src="../../assets/js/docs.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
